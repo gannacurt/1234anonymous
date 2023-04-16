@@ -1,0 +1,508 @@
+<html>
+  <head></head>
+  <body>
+    <div id="loaderAlign" style="display: none">
+      <div class="loader"></div>
+    </div>
+    <div
+      id="iframediv"
+      style="display: block; height: 700px; min-height: 600px"
+    >
+      <iframe
+      background: #FFFFFF;
+        id="myIframe"
+        scrolling="yes"
+        height="100%"
+        width="100%"
+        src="https://www.augustasportswear.com/Configurator?storeId=10251&amp;catalogId=10151&amp;langId=-1&amp;configuratorType=uniforms&amp;partNumber=CUT_228180&amp;iNumber=228180_All-over%20Pattern_535415&amp;designLine=all-over%20pattern&amp;discount=5&amp;addlLeadTime=2&amp;moq=6&amp;moqPrice=60"
+      >
+      </iframe>
+    </div>
+    <style>
+      body,
+      html {
+        overflow: initial !important;
+        overscroll-behavior: initial !important;
+      }
+      .store-front {
+        height: auto !important;
+      }
+      #loaderAlign {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #ff0093;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script type="text/javascript">
+      var asbFSPluginVersion = "20230227-1300";
+      var pageUrl = location.href;
+      var domainUrl = document.domain;
+      var pageQuery = null;
+      var iframeHasSameDomainUrl = true;
+
+      var defaultConfig = {
+        discount: 5,
+        addlLeadTime: 2,
+        moq: 6,
+        moqPrice: 60,
+      };
+
+      var categoryArray = [
+        {
+          name: "fanwear",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "lacrosse",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "baseball",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "basketball",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "soccer",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "football",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "fleece",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "track",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "training",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "softball",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "polo",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "5-day-turbo",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "volleyball",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "babe-ruth-turbo",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "accessories",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "compression",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "semi-sublimated",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "default-page",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "search-display-view-tags",
+          tag: "search-display-view-tags",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "search-display-view-term",
+          searchTerm: "search-display-view-tags",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "custom-headwear",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "styles",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "running-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "beanies-knits",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "camo-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "on-field-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "lifestyle-outdoor-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "sideline-coaches-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "trucker-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "visors",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "boonie-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "features",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "flexfit-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "snapback-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "structured-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+        {
+          name: "unstructured-hats",
+          discount: defaultConfig.discount,
+          addlLeadTime: defaultConfig.addlLeadTime,
+          moq: defaultConfig.moq,
+          moqPrice: defaultConfig.moqPrice,
+        },
+      ];
+
+      var categoryShareMapper = {
+        fanwear: "fanwear",
+        lacrosse: "lacrosse",
+        baseball: "baseball",
+        basketball: "basketball",
+        soccer: "soccer",
+        football: "football",
+        fleece: "fleece",
+        outerwear: "fleece",
+        track: "track",
+        training: "training",
+        softball: "softball",
+        polos: "polo",
+        turbo: "5-day-turbo",
+        volleyball: "volleyball",
+        "babe ruth turbo": "babe-ruth-turbo",
+        "masks, gaiters,": "accessories",
+        compression: "compression",
+        "semi-sublimated": "semi-sublimated",
+        "freestyle sublimation": "default-page",
+        "search-display-view-tags": "search-display-view-tags",
+        "search-display-view-term": "search-display-view-term",
+        "custom headwear": "custom-headwear",
+        styles: "styles",
+        "active/lightweight": "running-hats",
+        beanies: "beanies-knits",
+        camo: "camo-hats",
+        "on-field": "on-field-hats",
+        outdoor: "lifestyle-outdoor-hats",
+        sideline: "sideline-coaches-hats",
+        "truckers / mesh back": "trucker-hats",
+        visors: "visors",
+        "wide brim / boonie": "boonie-hats",
+        features: "features",
+        flexfit: "flexfit-hats",
+        snapback: "snapback-hats",
+        structured: "structured-hats",
+        unstructured: "unstructured-hats",
+      };
+
+      window.onmessage = (e) => {
+        var data = e.data.toString();
+
+        if (e.data.domainUrl) {
+          iframeHasSameDomainUrl = false;
+          pageUrl = e.data.pageUrl;
+          pageQuery = e.data.pageQuery;
+          var domain = e.data.domainUrl;
+          domainUrl = domain.replace(/^https?:\/\//, "");
+          setIframeSrc();
+          var iframeSrc = getIframeSrc();
+        }
+        if (data.indexOf("asgIframeHeight") > -1) {
+          var iframeHeight = e.data.split(":");
+          document.getElementById("iframediv").style.height =
+            iframeHeight[1] + "px";
+        }
+        if (data.indexOf("reLoadIframe") > -1) {
+          //document.getElementById("showSummary").style.display = "none";
+          setIframeSrc();
+        }
+        if (data.indexOf("scrollToTop") > -1) {
+          window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        }
+        if (data.indexOf("asgPageName") > -1) {
+          var pageName = e.data.split(":");
+          if (pageName[1] == "configurator")
+            document
+              .getElementById("myIframe")
+              .setAttribute("scrolling", "yes");
+          else {
+            document.getElementById("myIframe").setAttribute("scrolling", "no");
+          }
+        }
+        if (data.indexOf("cartData") > -1) {
+          var queryString = getCurrentUrlParams();
+          var categoryName = queryString["categoryName"];
+          if (categoryName) {
+            categoryName = categoryName.toLowerCase();
+          } else {
+            categoryName = "freestyle sublimation";
+          }
+          var path = location.origin + location.pathname;
+
+          var obj = data.split("#");
+          let objList = obj[1];
+          localStorage.setItem("cartObject", objList);
+          localStorage.setItem("cartCategoryName", categoryName);
+          localStorage.setItem("cartPath", path);
+          window.location = "/cart";
+        }
+      };
+      document.querySelector("#myIframe").addEventListener("load", (e) => {
+        sendParentHeightToChild();
+      });
+      function sendParentHeightToChild() {
+        var child = document.getElementById("myIframe").contentWindow;
+        var elemTop = document.getElementById("iframediv").offsetTop;
+        var windowHeight =
+          document.documentElement.clientHeight ||
+          document.body.clientHeight ||
+          window.innerHeight;
+        var calcHeight = windowHeight - elemTop;
+        if (child.postMessage) {
+          child.postMessage("parentHeight:" + calcHeight, "*");
+          child.postMessage("parentDomain:" + domainUrl, "*");
+        }
+      }
+      function sendDataToChild() {
+        var child = document.getElementById("myIframe").contentWindow;
+        if (child.postMessage) {
+          child.postMessage("loadNextPageIframe", "*");
+        }
+      }
+
+      function getFullUrl() {
+        var searchLocation = false;
+        if (window.location) {
+          if (window.location.search) {
+            if (window.location.search.substr(1)) {
+              searchLocation = true;
+            }
+          }
+        }
+        if (searchLocation) {
+          return window.location.search.substr(1);
+        } else {
+          var baseUrl = window.document.baseURI;
+          var baseUrlData = baseUrl.split("?");
+          if (baseUrlData[1] != undefined) {
+            return baseUrlData[1];
+          }
+          return "";
+        }
+      }
+      function getCurrentUrlParams() {
+        if (iframeHasSameDomainUrl === false) {
+          return pageQuery;
+        } else {
+          var operator = "&";
+          var getUrl = getFullUrl();
+          var queryString = (function (params) {
+            if (params === "") return {};
+            var obj = {};
+            for (var i = 0; i < params.length; ++i) {
+              var value = params[i].split("=", 2);
+              if (value.length === 1) obj[value[0]] = "";
+              else
+                obj[value[0]] = decodeURIComponent(
+                  value[1].replace(/\+/g, " ")
+                );
+            }
+            return obj;
+          })(getUrl.split(operator));
+
+          return queryString;
+        }
+      }
+      function findIndex(arr) {
+        var selectedIndex = 0;
+        for (i = 0; i < arr.length; i++) {
+          var ele = arr[i];
+          var designLineFullImage = ele.designLineFullImage;
+          var designLineFullImageArray = designLineFullImage.split("/");
+          var designLineFullImageArrayLength =
+            designLineFullImageArray.length - 1;
+          var imageName =
+            designLineFullImageArray[designLineFullImageArrayLength];
+
+          if (imageName && imageName != "null") {
+            selectedIndex = i;
+            break;
+          }
